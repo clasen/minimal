@@ -1,0 +1,67 @@
+* { margin:0; padding:0; outline:0; }
+
+body, td {
+  font-size:14px;
+  font-family:helvetica,arial;
+  color:#000;
+}
+
+.form
+{
+    clear:both;
+}
+
+button
+{
+    font-size:15px;
+    height:1.85em !important;
+    margin:0.2em;
+    line-height:0.8em;
+}
+
+table.grid
+{
+    border-collapse:collapse;
+    border-spacing:0;
+    line-height:125%;
+}
+
+    table.grid thead tr th
+    {
+        background-color:#EEE;
+        white-space: nowrap;
+        border:1px solid #CCC;
+    }
+
+    table.grid thead tr th,
+    table.grid thead tr td,
+    table.grid tbody tr td,
+    table.grid tbody tr th
+    {
+        padding:6px 12px;
+        text-align:left;
+        vertical-align:top;
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:small;
+    }
+
+    table.grid tbody tr td,
+    table.grid tbody tr th
+    {
+        border:1px solid #EEE;
+    }
+
+    table.grid tbody tr td table
+    {
+        width:100%;
+        margin: -7px 13px;
+    }
+
+.idTabs { margin:30px; clear: both }
+.idTabs ul.menu { background:#222; float:left; padding: 5px }
+.idTabs li { list-style:none; /*Try deleting this float*/ float:left; }
+.idTabs a { display:block; background:#222; color:snow; padding:0 13px; font:bold 25pt Arial; text-decoration:none; }
+.idTabs a.selected { background:#FFF; color:#000; }
+.idTabs ul, .idTabs a { border-radius:4px; -moz-border-radius:4px; }
+
+.boxes { padding-top: 20px; clear:both }

@@ -1,0 +1,31 @@
+#l_revision li
+{
+    clear: both;
+    margin:1px;
+    padding:6px 7px;
+}
+
+    #l_revision input
+    {
+        margin: 0px 10px 5px 0px;
+    }
+
+#l_module ul
+{
+    width:700px;
+}
+
+#l_module li
+{
+    width:140px;
+    float:left;
+    -moz-border-radius:3px;
+    background: #EEE;
+    margin:1px;
+    padding:3px 7px;
+}
+
+._input
+{
+    width:500px;
+}
